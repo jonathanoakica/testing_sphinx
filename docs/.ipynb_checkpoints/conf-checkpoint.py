@@ -26,7 +26,6 @@ author = u"jon"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-
     
 extensions = [
     "myst_parser",
@@ -38,23 +37,11 @@ autoapi_dirs = ["../src"]
     
 exclude_patterns = ['_build', 'Thumbs.db']
     
-html_sidebars = {
-    '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'],
-    'autoapi/index': ['localtoc.html', 'sourcelink.html', 'searchbox.html'],
-}    
+    
     
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
     
 html_theme = 'sphinx_rtd_theme'
-
-
-#from recommonmark.parser import CommonMarkParser
-
-#source_parsers = {
-#    '.md': CommonMarkParser,
-#}
-
-#source_suffix = ['.rst', '.md']
 
