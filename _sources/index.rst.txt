@@ -1,14 +1,10 @@
 Welcome to testing_sphinx's documentation!
 ==========================================
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
-   readme.md
-   changelog.md
    Code Documentation <autoapi/index>
-   conduct.md
-   contributing.md
-    
+
     
 Description
 ---------
