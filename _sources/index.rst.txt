@@ -1,0 +1,24 @@
+Welcome to testing_sphinx's documentation!
+==========================================
+.. include:: ../README.md
+   :start-line: 2
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   
+    Code Documentation <autoapi/index>
+
+Changelog
+---------
+For information on changes made to this project, please see the :doc:`changelog`.
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
