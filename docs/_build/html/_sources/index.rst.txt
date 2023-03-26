@@ -1,8 +1,5 @@
 Welcome to testing_sphinx's documentation!
 ==========================================
-.. include:: ../README.md
-   :start-line: 2
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -12,6 +9,14 @@ Welcome to testing_sphinx's documentation!
 Changelog
 ---------
 For information on changes made to this project, please see the :doc:`changelog`.
+
+Conduct
+---------
+For information on changes made to this project, please see the :doc:`conduct`.
+
+Contributing
+---------
+For information on changes made to this project, please see the :doc:`contibuting`.
 
 
 Indices and tables
